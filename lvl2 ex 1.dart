@@ -6,7 +6,7 @@ void main() {
     a.add(int.parse(element));
   });
   int max = 1;
-  int count = 1;
+  int count = 0;
   int number = 0;
 
   for (int i = 0; i < a.length; i++) {
@@ -22,7 +22,7 @@ void main() {
     count = 0;
   }
 
-  if (count == 0) {
+  if (number == 0) {
     print(a[0]);
   }
   else {
