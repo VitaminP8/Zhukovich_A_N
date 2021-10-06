@@ -9,7 +9,5 @@ void main() {
     a.add(x);
     x = x + 3;
   }
-  for (int i = 0; i < n; i++){
-    print (a[i]);
-  }
+  print(a);
 }
